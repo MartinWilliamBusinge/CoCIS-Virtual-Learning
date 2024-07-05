@@ -16,7 +16,7 @@ class LoginPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        backgroundColor: Colors.grey[300],
+        backgroundColor: Color.fromARGB(255, 120, 163, 154),
         body: SafeArea(
           child: SingleChildScrollView(
             child: Center(
@@ -100,7 +100,7 @@ class LoginPage extends StatelessWidget {
                           padding: const EdgeInsets.symmetric(horizontal: 10.0),
                           child: Text(
                             'Or continue with',
-                            style: TextStyle(color: Colors.grey[700]),
+                            style: TextStyle(color: Colors.green[700]),
                           ),
                         ),
                         Expanded(
@@ -116,9 +116,9 @@ class LoginPage extends StatelessWidget {
                   const SizedBox(height: 50),
 
                   // google + apple sign in buttons
-                  Row(
+                  const Row(
                     mainAxisAlignment: MainAxisAlignment.center,
-                    children: const [
+                    children: [
                       // google button
                       SquareTile(imagePath: 'lib/images/google.png'),
 
