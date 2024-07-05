@@ -33,9 +33,9 @@ class LoginPage extends StatelessWidget {
 
                   const SizedBox(height: 50),
 
-                  // Hello. Welcome to our app
+                  // Hello. Welcome back 
                   Text(
-                    'Hello. Welcome to our app',
+                    'Hello. Welcome back',
                     style: TextStyle(
                       color: Colors.grey[700],
                       fontSize: 18,
@@ -132,7 +132,7 @@ class LoginPage extends StatelessWidget {
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       Text(
-                        'Not a member?',
+                        'No account?',
                         style: TextStyle(color: Colors.grey[700]),
                       ),
                       const SizedBox(width: 4),
