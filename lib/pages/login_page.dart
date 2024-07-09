@@ -14,6 +14,7 @@ class LoginPage extends StatefulWidget {
 class _LoginPageState extends State<LoginPage> {
   // text editing controllers
   final emailController = TextEditingController();
+
   final passwordController = TextEditingController();
 
   // sign user in method
@@ -193,7 +194,7 @@ class _LoginPageState extends State<LoginPage> {
 
               const SizedBox(height: 50),
 
-              // google + apple sign in buttons
+              // google sign in buttons
               const Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
