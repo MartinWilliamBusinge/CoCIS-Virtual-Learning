@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:modernlogintute/components/my_button.dart';
-import 'package:modernlogintute/components/my_textfield.dart';
-import 'package:modernlogintute/components/square_tile.dart';
+import 'package:virtuallearningapp/components/my_button.dart';
+import 'package:virtuallearningapp/components/my_textfield.dart';
+import 'package:virtuallearningapp/components/square_tile.dart';
 
 class LoginPage extends StatelessWidget {
   LoginPage({super.key});
@@ -16,7 +16,7 @@ class LoginPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        backgroundColor:const Color.fromARGB(255, 120, 163, 154),
+        backgroundColor: const Color.fromARGB(255, 120, 163, 154),
         body: SafeArea(
           child: SingleChildScrollView(
             child: Center(
