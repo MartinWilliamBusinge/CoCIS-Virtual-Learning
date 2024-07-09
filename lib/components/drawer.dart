@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:modernlogintute/components/my_list_tile.dart';
+import 'package:virtuallearningapp/components/my_list_tile.dart';
 
 class MyDrawer extends StatelessWidget {
   final void Function()? onProfileTap;
