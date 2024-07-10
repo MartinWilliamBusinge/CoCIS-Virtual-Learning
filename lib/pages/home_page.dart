@@ -62,7 +62,7 @@ class _HomePageState extends State<HomePage> {
           color: const Color.fromARGB(255, 78, 59, 114),
           child: ListView(
             children:  [
-              DrawerHeader(
+              const DrawerHeader(
                 child: Center(
                     child: Text(
                   "W E L C O M E",
@@ -70,8 +70,8 @@ class _HomePageState extends State<HomePage> {
                 )),
               ),
               ListTile(
-                leading: Icon(Icons.one_k),
-                title: Text(
+                leading: const Icon(Icons.one_k),
+                title: const Text(
                   "DOWNLOADS ",
                   style: TextStyle(fontSize: 15),
                 ),
@@ -81,8 +81,8 @@ class _HomePageState extends State<HomePage> {
                 },
               ),
               ListTile(
-                leading: Icon(Icons.first_page),
-                title: Text(
+                leading: const Icon(Icons.first_page),
+                title: const Text(
                   "Y E A R  O N E  ",
                   style: TextStyle(fontSize: 15),
                 ),
@@ -92,8 +92,8 @@ class _HomePageState extends State<HomePage> {
                 },
               ),
               ListTile(
-                leading: Icon(Icons.one_k),
-                title: Text(
+                leading: const Icon(Icons.one_k),
+                title: const Text(
                   "Y E A R  T W O ",
                   style: TextStyle(fontSize: 15),
                 ),
