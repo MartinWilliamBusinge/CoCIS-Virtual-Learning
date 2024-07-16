@@ -12,7 +12,7 @@ class _ProfilePageState extends State<ProfilePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Profile'),
+        title: const Text(' My Profile'),
       ),
       body: SingleChildScrollView(
         child: Padding(
@@ -44,26 +44,31 @@ class _ProfilePageState extends State<ProfilePage> {
                       // Profile information
                       const ListTile(
                         leading: Icon(Icons.person),
-                        title: Text('Username: name'),
+                        title: Text('FIRSTNAME: NAKIRIJJA'),
                       ),
                       const ListTile(
                         leading: Icon(Icons.person),
-                        title: Text('Name: name'),
+                        title: Text('OTHER NAMES: Jessica'),
                       ),
                       const ListTile(
                         leading: Icon(Icons.info),
-                        title: Text('Text'),
+                        title: Text('BIO:  computer science student'),
                       ),
-                      // Course Progress
+                      // Telephone
                       const ListTile(
-                        leading: Icon(Icons.timeline),
-                        title: Text('Course Progress: 50%'),
+                        leading: Icon(Icons.phone),
+                        title: Text('CONTACTS: 0760421435/0753031959'),
                       ),
-                      // Skills
+                      // Gender
                       const ListTile(
-                        leading: Icon(Icons.build),
-                        title: Text('Skills: Java, Python, JavaScript'),
+                        leading: Icon(Icons.person),
+                        title: Text('GENDER: Female'),
                       ),
+                     // Email
+                    const ListTile(
+                      leading: Icon(Icons.email),
+                      title: Text('EMAIL: jessicanakirijja90@gmail.com'),
+                     ),
                       // Button to edit profile
                       ElevatedButton(
                         onPressed: () {},
